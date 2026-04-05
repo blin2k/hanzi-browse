@@ -35,7 +35,7 @@
     "knip": "^5.0.0",
     "madge": "^6.1.0",
     "prettier": "^3.2.5",
-    "vite": "^5.0.12"
+    "vite": "^8.0.3"
   },
   "dependencies": {
     "preact": "^10.29.0"

@@ -707,7 +707,7 @@ function getSkillsSource() {
     const fromSrc = join(dirname(fileURLToPath(import.meta.url)), '..', '..', 'skills');
     return fromSrc;
 }
-const SKILL_NAMES = ['hanzi-browse', 'e2e-tester', 'social-poster', 'linkedin-prospector', 'a11y-auditor', 'x-marketer'];
+const SKILL_NAMES = ['hanzi-browse', 'e2e-tester', 'social-poster', 'linkedin-prospector', 'a11y-auditor', 'data-extractor', 'x-marketer'];
 async function installSkills(agents, isInteractive) {
     const skillsSource = getSkillsSource();
     if (!existsSync(skillsSource))
